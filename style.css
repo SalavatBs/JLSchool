@@ -1209,7 +1209,7 @@ background: url(img/Background3.png);
   width: 214px;
   height: 58px;
   margin-top: 72px;
-  margin-left: 53px;
+  margin-left: 90px;
   margin-bottom: 4px;
   }
   .fears{
@@ -1303,14 +1303,14 @@ background: url(img/Background3.png);
   font:700 18px/21.94px Montserrat,arial helvetica serif;
   width: 261px;
   height: 132px;
-  margin-left: 30px;
+  margin-left: 70px;
   margin-top: 77px;
   }
   .fears__button{
   font:500 16px/19.5px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
-  margin-left: 30px;
+  margin-left: 75px;
   margin-top: 20px;
   }
   .present-section{
@@ -1321,7 +1321,7 @@ background: url(img/Background3.png);
   font:700 24px/29.26px Montserrat,arial helvetica serif;
   width: 234px;
   height: 47px;
-  margin-left: 39px;
+  margin-left: 80px;
   padding-top: 71px;
   }
   .present-text__description{
@@ -1331,7 +1331,7 @@ background: url(img/Background3.png);
   text-align: center;
   }
   .present-text{
-  margin-left: 30px;
+  margin-left: 60px;
   padding-top: 75px;
   }
   .present-text__description_present{
@@ -1353,7 +1353,7 @@ background: url(img/Background3.png);
   width: 175px;
   height: 58px;
   margin-top: 71px;
-  margin-left: 70px;
+  margin-left: 115px;
   }
   .knowlege{
   display: flex;
@@ -1366,7 +1366,7 @@ background: url(img/Background3.png);
   .knowlege:nth-child(1) p{
   width: 184px;
   height: 80px;
-  margin-left: 66px;
+  margin-left: 140px;
   margin-top: 15px;
   }
   .knowlege:nth-child(1) img {
@@ -1374,75 +1374,75 @@ background: url(img/Background3.png);
   height: 46.2px;
   padding-top: 13px;
   padding-bottom: 0;
-  margin-left: 64px;
+  margin-left: 125px;
   }
   .knowlege:nth-child(2) img {
   width: 48px;
   height: 47px;
   margin-top: -13px;
-  margin-left: 76px;
+  margin-left: 135px;
   margin-bottom: 0;
   }
   .knowlege:nth-child(2) p{
   width: 183px;
   height: 40px;
-  margin-left: 64px;
+  margin-left: 140px;
   margin-top: 7px;
   }
   .knowlege:nth-child(3) img {
   width: 48px;
   height: 46px;
   margin-top: -79px;
-  margin-left: 53px;
+  margin-left: 120px;
   }
   .knowlege:nth-child(3) p{
   width: 217px;
   height: 40px;
   margin-top: 5px;
-  margin-left: 64px;
+  margin-left: 140px;
   }
   .knowlege:nth-child(4) img {
   width: 45px;
   height: 47px;
   margin-top: -184px;
-  margin-left: 53px;
+  margin-left: 130px;
   }
   .knowlege:nth-child(4) p{
   width: 199px;
   height: 80px;
   margin-top: 9px;
-  margin-left: 55px;
+  margin-left: 130px;
   }
   .knowlege:nth-child(5) img {
   width: 48px;
   height: 47px;
   margin-top: -238px;
-  margin-left: 74px;
+  margin-left: 140px;
   }
   .knowlege:nth-child(5) p{
   width: 159px;
   height: 60px;
   margin-top: 7px;
-  margin-left: 63px;
+  margin-left: 135px;
   }
   .knowlege:nth-child(6) img {
   width: 48px;
   height: 47px;
   margin-top: -316px;
-  margin-left: 51px;
+  margin-left: 135px;
   }
   .knowlege:nth-child(6) p{
   width: 253px;
   height: 80px;
   margin-top: 7px;
-  margin-left: 63px;
+  margin-left: 140px;
   }
   .knowlege__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
   margin-top: 1067px;
-  margin-left: 30px;
+  margin-left: 72px;
   }
   .about-section{
   height: 1364px;
@@ -1585,7 +1585,7 @@ background: url(img/Background3.png);
   width: 260px;
   height: 60px;
   margin-top: 67px;
-  margin-left: 31px;
+  margin-left: 72px;
   }
   .footer__section{
   height: 440px;
