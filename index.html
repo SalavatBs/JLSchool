@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JLSchool</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
@@ -46,25 +45,27 @@
       <p>Не хватает сотрудников. И не понятно где быстро найти подходящих и эффективных</p>
     </div>
     <div class="">
-      <div class="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <p>Нет сил пахать на бизнес, который <br>не приносит результата</p>
-              <p>Бесконечные форс-мажоры и стресс</p>
-              <p>Продажи еле покрывают расходы</p>
-              <p>Нет потока новых клиентов</p>
-              <p>Не получается масштабироваться</p
-            </li>
-            <li class="splide__slide">
-              <p>Отсутствует налаженная система в бизнесе</p>
-              <p>Выручка на одном и том же уровне, больше не сделать</p>
-              <p>Клиентам дорого покупать наши <br> услуги или предпочитают конкурентов</p>
-              <p>Большая занятость, все на мне!</p>
-              <p>Не хватает сотрудников. И не понятно где быстро найти подходящих и эффективных</p>
-            </li>
-          </ul>
-        </div>
+      <div class="splide swiper-container--intro">
+         <div class="splide__track">
+           <ul class="splide__list">
+             <li class="splide__slide splide__slide_first">
+               <p>Нет сил пахать на бизнес, который <br>не приносит результата</p>
+               <p>Бесконечные форс-мажоры и стресс</p>
+               <p>Продажи еле покрывают расходы</p>
+               <p>Нет потока новых клиентов</p>
+               <p>Не получается масштабироваться</p>
+             </li>
+             <li class="splide__slide splide__slide_second">
+               <p>Отсутствует налаженная система в бизнесе</p>
+               <p>Выручка на одном и том же уровне, больше не сделать</p>
+               <p>Клиентам дорого покупать наши <br> услуги или предпочитают конкурентов</p>
+               <p>Большая занятость, все на мне!</p>
+               <p>Не хватает сотрудников. И не понятно где быстро найти подходящих и эффективных</p>
+             </li>
+           </ul>
+         </div>
+       </div>
+     </div>
 <h2 class="fears__subtitle">Если вы сталкивались хотя бы c одной из перечисленных проблем, тогда вам нужно посмотреть этот вебинар!</h2>
   <form action="#popup">
     <button class="fears__button">Зарегистрироваться</button>
@@ -119,13 +120,13 @@
      <div class="description">
        <h3 class="about__description">Юлия Линдиман</h3>
        <p>Опыт управления более 16 лет</p>
-       <p>Основатель клубов для создания красивых фигур, <br> сооснователь франшиз студий, бара</p>
+       <p>Основатель клубов для создания красивых фигур, сооснователь франшиз студий, бара</p>
        <p>Владелица 3х бизнeсов</p>
-       <p>Создала свою CRM-систему для велнес, фитнес <br> и салонов красоты</p>
-       <p>Подняла прoдажи с 1ОО ООО руб. до + 3 ООО ООО ₽ <br> в кратчайшие сроки</p>
+       <p>Создала свою CRM-систему для велнес, фитнес и салонов красоты</p>
+       <p>Подняла прoдажи с 1ОО ООО руб. до + 3 ООО ООО ₽ в кратчайшие сроки</p>
        <p>Вывела клиентов на обороты 30+ млн руб. за месяц</p>
-       <p>Автор коучинга "Управляемый прибыльный бизнeс <br> под ключ"</p>
-       <p>Более 50 успешных проектов в области развития <br> компаний и роста их дохoдов от 30 до 500%</p>
+       <p>Автор коучинга "Управляемый прибыльный бизнeс под ключ"</p>
+       <p>Более 50 успешных проектов в области развития компаний и роста их дохoдов от 30 до 500%</p>
        <p>Один из лучших кейсов предпринимателей - рост <br>за 2 недели на 400%. Один из min - рост 30% за месяц</p>
      </div>
    </section>
@@ -152,7 +153,7 @@
    <section class="review-section">
      <h1 class="review__title">Отзывы</h1>
      <div class="">
-       <div class="splide">
+       <div class="splide swiper-container--reviews">
         	<div class="splide__track">
         		<ul class="splide__list">
         			<li class="splide__slide"><img src="./img/review1.png"> <img src="./img/review2.png"> <img src="./img/review3.png"></li>
@@ -171,13 +172,20 @@
 	          <button class="splide__arrow splide__arrow--next"><img src="./img/next.svg" alt=""></button>
           </div>
         </div>
-      <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-      <script>
-      	document.addEventListener( 'DOMContentLoaded', function () {
-      		new Splide( '.splide' ).mount();
-      	} );
-      </script>
-      <script src="script.js"></script>
+        <div class="splide swiper-container--mobile">
+           <div class="splide__track">
+             <ul class="splide__list">
+               <li class="splide__slide"><img src="./img/review1.png"></li>
+               <li class="splide__slide"><img src="./img/review2.png"></li>
+               <li class="splide__slide"><img src="./img/review3.png"></li>
+               <li class="splide__slide"><img src="./img/review4.png"></li>
+               <li class="splide__slide"><img src="./img/review5.png"></li>
+               <li class="splide__slide"><img src="./img/review6.png"></li>
+               <li class="splide__slide"><img src="./img/review7.png"></li>
+               <li class="splide__slide"><img src="./img/review8.png"></li>
+               <li class="splide__slide"><img src="./img/review9.png"></li>
+             </ul>
+           </div>
      </div>
      <form action="#popup">
      <button class="review__button" alt="#">Зарегистрироваться на вебинар</button>
@@ -206,6 +214,12 @@
     </div>
   </div>
 </div>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script>
+ document.addEventListener( 'DOMContentLoaded', function () {
+   new Splide( '.splide' ).mount();
+ } );
+</script>
+<script src="script.js"></script>
 </body>
 </html>
