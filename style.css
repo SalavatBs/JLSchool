@@ -1131,7 +1131,7 @@ background: url(img/Background3.png);
   }
   .logo{
   font:500 20px/24.38px Montserrat,arial helvetica serif;
-  padding-left: 29px;
+  padding-left: 50px;
   padding-right: 0;
   width: 91px;
   height: 24px;
@@ -1147,7 +1147,7 @@ background: url(img/Background3.png);
   width: 276px;
   height: 51px;
   padding-top: 24px;
-  margin-left: 22px;
+  margin-left: 74px;
   margin-bottom: 11px;
   background-size: 260px 51px;
   background-position: 8px 23px;
@@ -1157,18 +1157,18 @@ background: url(img/Background3.png);
   width: 197px;
   height: 40px;
   padding-top: 0;
-  padding-left: 29px;
+  padding-left: 117px;
   }
   .header button{
   display: flex;
   width: 22px;
   height: 22px;
   background-size: 22px 22px;
-  margin-left: 268px;
+  margin-left: 350px;
   margin-top: -157px;
   }
   .text{
-  padding-left: 31px;
+  padding-left: 73px;
   }
   .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
