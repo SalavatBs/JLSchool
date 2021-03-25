@@ -1156,6 +1156,7 @@ display: none;
     margin-left: 21px;
     margin-top: 49px;
   }
+}
 @media (max-width:321px){
   .top-section{
     width: 100%;
@@ -1203,7 +1204,7 @@ display: none;
   height: 22px;
   background-size: 22px 22px;
   margin-left: 268px;
-  margin-top: -157px;
+  margin-top: -187px;
 }
 .text{
   padding-left: 31px;
