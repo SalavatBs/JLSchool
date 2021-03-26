@@ -692,11 +692,11 @@ display: none;
   width: 22px;
   height: 22px;
   background-size: 22px 22px;
-  margin-left: 350px;
-  margin-top: -185px;
+  margin-left: 328px;
+  margin-top: -188px;
   }
   .text{
-  padding-left: 73px;
+  padding-left: 18%;
   }
   .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
@@ -760,6 +760,9 @@ display: none;
   .swiper-container--intro .splide__pagination__page {
     width: 14px;
     height: 14px;
+  }
+  .splide__slide{
+    margin-left: 4%;
   }
   .splide__slide p{
   font:500 16px/19.5px Montserrat,arial helvetica serif;
@@ -880,7 +883,7 @@ display: none;
   font:700 18px/21.94px Montserrat,arial helvetica serif;
   width: 261px;
   height: 132px;
-  margin-left: 70px;
+  margin-left: 18%;
   margin-top: 77px;
   }
   .fears__button{
@@ -898,7 +901,7 @@ display: none;
   font:700 24px/29.26px Montserrat,arial helvetica serif;
   width: 234px;
   height: 47px;
-  margin-left: 80px;
+  margin-left: 22%;
   padding-top: 71px;
   }
   .present-text__description{
@@ -908,7 +911,7 @@ display: none;
   text-align: center;
   }
   .present-text{
-  margin-left: 60px;
+  margin-left: 18%;
   padding-top: 75px;
   }
   .present-text__description_present{
@@ -1039,7 +1042,7 @@ display: none;
   padding: 14px;
   padding-bottom: 450px;
   background: no-repeat url(img/Photo2.png);
-  background-size: 285px 430px;
+  background-size: 318.5px 444.6px;
   background-position: bottom center;
   }
   .about__description{
@@ -1093,62 +1096,72 @@ display: none;
   }
   .advantages{
   display: flex;
+  margin-bottom: 20px;
   }
   .advantages:nth-child(1){
-  background: none;
-  width: 320px;
-  height: 63px;
+    width: 100%;
+    height: 132px;
+    background: none;
+    background-color: #FAF9FF;
+    padding-right: 15%;
+    margin-bottom: 20px;
   }
   .advantages:nth-child(2){
-  background: none;
-  width: 320px;
-  height: 132px
+    width: 100%;
+    height: 132px;
+    background: none;
+    background-color: #FAF9FF;
+    padding-right: 15%;
   }
   .advantages:nth-child(3){
-  background: none;
-  width: 344px;
-  height: 132px;
+    width: 100%;
+    height: 140px;
+    background: none;
+    background-color: #FAF9FF;
+    padding-right: 15%;
   }
   .advantages:nth-child(4){
-  background: none;
-  width: 320px;
-  height: 132px;
+    width: 100%;
+    height: 132px;
+    background: none;
+    background-color: #FAF9FF;
+    padding-right: 15%;
   }
   .advantages:nth-child(1) p{
   width: 223px;
   height: 60px;
-  margin-top: 38px;
-  margin-left: 72px;
+  margin-top: 25px;
+  margin-left: 12%;
   }
   .advantages:nth-child(2) p{
   width: 239px;
   height: 60px;
-  margin-left: 86px;
+  margin-left: 100px;
   }
   .advantages:nth-child(3) p{
   width: 250px;
   height: 100px;
-  margin-left: 74px;
+  margin-left: 21%;
   }
   .advantages:nth-child(4) p{
   width: 211px;
   height: 80px;
   margin-top: 5px;
-  margin-left: 73px;
+  margin-left: 13%;
   }
   .advantages__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
-  margin-top: 600px;
-  margin-left: 70px;
+  margin-top: 660px;
+  margin-left: 20%;
   }
   .review-section{
   height: 741px;
   }
   .review__title{
   font:700 24px/29px Montserrat,arial helvetica serif;
-  padding-top: 30px;
+  padding-top: 70px;
   }
   .swiper-container--reviews{
   display: none;
@@ -1211,6 +1224,153 @@ display: none;
     height: 48px;
     margin-left: 21px;
     margin-top: 49px;
+  }
+}
+@media (max-width:380px){
+  .top-section{
+    width: 100%;
+    height: 1284px;
+    background: no-repeat url("img/Background-top2.png");
+    background-size: 100% 1284px;
+  }
+  .header{
+    display: inline-block;
+    padding-top: 20px;
+  }
+  .logo{
+  font:500 20px/24.38px Montserrat,arial helvetica serif;
+  padding-left: 40px;
+  padding-right: 0;
+  width: 91px;
+  height: 24px;
+  }
+  .logo p{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+  .logo__text{
+  margin-left: 50px;
+  }
+  .logo__time{
+  padding-left: 90px;
+  }
+  .header button{
+  margin-left: 320px;
+  }
+  .text{
+  padding-left: 60px;
+  }
+  .about__title{
+    margin-left: 7.5%;
+  }
+  .description{
+    padding-left: 0;
+  }
+  .advantages{
+    margin-bottom: 20px;
+  }
+  .advantages_title{
+    margin-left: 77px;
+  }
+  .advantages:nth-child(1) p{
+    margin-left:7%;
+  }
+  .advantages:nth-child(2) p{
+    margin-left: 77px;
+    margin-top: 15%;
+  }
+  .advantages:nth-child(3) p{
+    margin-left: 15%;
+    margin-top: 11%;
+  }
+  .advantages:nth-child(4) p{
+    margin-left: 9%;
+    margin-top: 14%;
+  }
+  .advantages:nth-child(1){
+    width: 100%;
+    height: 132px;
+    background-color: #FAF9FF;
+    padding-right: 6%;
+  }
+  .advantages:nth-child(2){
+    width: 100%;
+    height: 132px;
+    background-color: #FAF9FF;
+    padding-right: 6%;
+  }
+  .advantages:nth-child(3){
+    width: 100%;
+    height: 140px;
+    background-color: #FAF9FF;
+    padding-right: 6%;
+  }
+  .advantages:nth-child(4){
+    width: 100%;
+    height: 132px;
+    background-color: #FAF9FF;
+    padding-right: 6%;
+  }
+  .advantages__button{
+    margin-top: 178%;
+    margin-left: 16%;
+  }
+  .review__title{
+    padding-top: 18%;
+  }
+  .review__button {
+    margin-left: 62px;
+  }
+  .fears__title{
+    margin-left: 22%;
+  }
+  .fears__subtitle{
+    margin-left: 16%;
+    margin-top: 70px;
+  }
+  .fears__button{
+    margin-left: 16%;
+  }
+  .present-text__title{
+    margin-left: 18%;
+  }
+  .present-text{
+    margin-left: 15%;
+  }
+  .knowlege-section__titile{
+    margin-left: 26.3%;
+  }
+  .knowlege:nth-child(1) p{
+    margin-left: 125px;
+  }
+  .knowlege:nth-child(2) p{
+    margin-left: 124px;
+  }
+  .knowlege:nth-child(3) p{
+    margin-left: 124px;
+  }
+  .knowlege:nth-child(4) p{
+    margin-left: 112px;
+  }
+  .knowlege:nth-child(5) p{
+    margin-left: 124px;
+  }
+  .knowlege:nth-child(6) p{
+    margin-left: 123px;
+  }
+  .knowlege:nth-child(4) img{
+    margin-left: 115px;
+  }
+  .knowlege:nth-child(5) img{
+    margin-left: 136px;
+  }
+  .knowlege:nth-child(6) img{
+    margin-left: 108px;
+  }
+  .knowlege__button{
+    margin-left: 16%;
   }
 }
 @media (max-width:321px){
@@ -1618,23 +1778,27 @@ background: url(img/Background3.png);
 }
 .advantages:nth-child(1){
   background: none;
-  width: 320px;
-  height: 34px;
+  width: 100%;
+  height: 132px;
+  background-color: #FAF9FF;
 }
 .advantages:nth-child(2){
   background: none;
-  width: 320px;
-  height: 132px
+  width: 100%;
+  height: 132px;
+  background-color: #FAF9FF;
 }
 .advantages:nth-child(3){
   background: none;
-  width: 320px;
+  width: 100%;
   height: 132px;
+  background-color: #FAF9FF;
 }
 .advantages:nth-child(4){
   background: none;
-  width: 320px;
-  height: 100px;
+  width: 100%;
+  height: 132px;
+  background-color: #FAF9FF;
 }
 .advantages:nth-child(1) p{
   width: 223px;
@@ -1645,20 +1809,20 @@ background: url(img/Background3.png);
 .advantages:nth-child(2) p{
   width: 239px;
   height: 60px;
-  margin-top: 50px;
+  margin-top: 41px;
   margin-left: 48px;
 }
 .advantages:nth-child(3) p{
   width: 250px;
   height: 100px;
-  margin-top: 0px;
+  margin-top: 51px;
   margin-left: 25px;
 }
 .advantages:nth-child(4) p{
   width: 211px;
   height: 80px;
-  margin-top: 0px;
-  margin-left: 5px;
+  margin-top: 50px;
+  margin-left: 2px;
 }
 .advantages__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
@@ -1694,9 +1858,6 @@ background: url(img/Background3.png);
   height: 60px;
   margin-top: 67px;
   margin-left: 31px;
-}
-.footer__section{
-  height: 440px;
 }
 .footer{
   font:500 16px/20px Montserrat,arial helvetica serif;
