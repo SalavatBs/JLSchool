@@ -1374,6 +1374,36 @@ display: none;
   }
 }
 @media (max-width:361px){
+  .splide__slide_first p:nth-child(1){
+    padding-right: 40px;
+  }
+  .splide__slide_first p:nth-child(2){
+    padding-right: 52px;
+  }
+  .splide__slide_first p:nth-child(3){
+    padding-right: 43px;
+  }
+  .splide__slide_first p:nth-child(4){
+    padding-right: 152px;
+  }
+  .splide__slide_first p:nth-child(5){
+    padding-right: 138px;
+  }
+  .splide__slide_second p:nth-child(1){
+    padding-right: 65px;
+  }
+  .splide__slide_second p:nth-child(2){
+    padding-right: 69px;
+  }
+  .splide__slide_second p:nth-child(3){
+    padding-right: 38px;
+  }
+  .splide__slide_second p:nth-child(4){
+    padding-right: 147px;
+  }
+  .splide__slide_second p:nth-child(5){
+    padding-right: 65px;
+  }
   .advantages:nth-child(1){
     padding-right: 0%;
   }
