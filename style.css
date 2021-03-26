@@ -1559,6 +1559,7 @@ background: url(img/Background3.png);
   height: 29px;
   padding-top: 70px;
   margin-top: 11px;
+  margin-left: 0;
 }
 .description{
   margin-left: -46px;
