@@ -459,6 +459,7 @@ margin-left: 63px;
   background-position: 210px 89px;
   background-color: #e9e9e9;
   margin-bottom: 12px;
+  margin-right: 3%;
 }
 .advantages:nth-child(2){
   background: no-repeat url(img/advantages2.svg);
@@ -1210,6 +1211,67 @@ display: none;
     height: 48px;
     margin-left: 21px;
     margin-top: 49px;
+  }
+}
+@media (max-width:380px){
+  .top-section{
+    width: 100%;
+    height: 1284px;
+    background: no-repeat url("img/Background-top2.png");
+    background-size: 100% 1284px;
+  }
+  .header{
+    display: inline-block;
+    padding-top: 20px;
+  }
+  .logo{
+  font:500 20px/24.38px Montserrat,arial helvetica serif;
+  padding-left: 40px;
+  padding-right: 0;
+  width: 91px;
+  height: 24px;
+  }
+  .logo p{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+  .logo__text{
+  margin-left: 50px;
+  }
+  .logo__time{
+  padding-left: 90px;
+  }
+  .header button{
+  margin-left: 320px;
+  }
+  .text{
+  padding-left: 60px;
+  }
+  .about__title{
+    margin-left: 24px;
+  }
+  .description{
+    padding-left: 0;
+  }
+  .advantages_title{
+    margin-left: 77px;
+  }
+  .advantages:nth-child(1) p{
+    margin-left: 60px;
+  }
+  .advantages:nth-child(2) p{
+    margin-left: 81px;
+  }
+  .advantages:nth-child(3) p{
+    margin-left: 71px;
+  }
+  .advantages:nth-child(4) p{
+    margin-left: 71px;
+  }
+  .review__button {
+    margin-left: 62px;
   }
 }
 @media (max-width:321px){
