@@ -1103,7 +1103,7 @@ display: none;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 11%;
+    padding-right: 10%;
     margin-bottom: 20px;
   }
   .advantages:nth-child(2){
@@ -1111,21 +1111,21 @@ display: none;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 11%;
+    padding-right: 10%;
   }
   .advantages:nth-child(3){
     width: 100%;
     height: 140px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 11%;
+    padding-right: 10%;
   }
   .advantages:nth-child(4){
     width: 100%;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 11%;
+    padding-right: 10%;
   }
   .advantages:nth-child(1) p{
   width: 223px;
@@ -1371,6 +1371,20 @@ display: none;
   }
   .knowlege__button{
     margin-left: 16%;
+  }
+}
+@media (max-width:361px){
+  .advantages:nth-child(1){
+    padding-right: 0%;
+  }
+  .advantages:nth-child(2){
+    padding-right: 0%;
+  }
+  .advantages:nth-child(3){
+    padding-right: 0%;
+  }
+  .advantages:nth-child(4){
+    padding-right: 2%;
   }
 }
 @media (max-width:321px){
