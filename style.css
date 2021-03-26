@@ -1103,7 +1103,7 @@ display: none;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 15%;
+    padding-right: 11%;
     margin-bottom: 20px;
   }
   .advantages:nth-child(2){
@@ -1111,21 +1111,21 @@ display: none;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 15%;
+    padding-right: 11%;
   }
   .advantages:nth-child(3){
     width: 100%;
     height: 140px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 15%;
+    padding-right: 11%;
   }
   .advantages:nth-child(4){
     width: 100%;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 15%;
+    padding-right: 11%;
   }
   .advantages:nth-child(1) p{
   width: 223px;
@@ -1716,7 +1716,7 @@ background: url(img/Background3.png);
 }
 .about__title{
   font:700 24px/29.26px Montserrat,arial helvetica serif;
-  width: 323px;
+  width: 100%;
   height: 29px;
   padding-top: 70px;
   margin-top: 11px;
@@ -1781,24 +1781,28 @@ background: url(img/Background3.png);
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
+  padding-right: 0;
 }
 .advantages:nth-child(2){
   background: none;
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
+  padding-right: 0;
 }
 .advantages:nth-child(3){
   background: none;
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
+  padding-right: 0;
 }
 .advantages:nth-child(4){
   background: none;
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
+  padding-right: 0;
 }
 .advantages:nth-child(1) p{
   width: 223px;
@@ -1828,7 +1832,7 @@ background: url(img/Background3.png);
   font:500 16px/20px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
-  margin-top: 540px;
+  margin-top: 209%;
   margin-left: 31px;
 }
 .review-section{
@@ -1836,7 +1840,7 @@ background: url(img/Background3.png);
 }
 .review__title{
   font:700 24px/29px Montserrat,arial helvetica serif;
-  padding-top: 15px;
+  padding-top: 68px;
 }
 .swiper-container--reviews{
   display: none;
