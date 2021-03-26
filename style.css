@@ -727,7 +727,13 @@ display: none;
   width: 253px;
   margin-left: 0;
   margin-top: 22px;
+  padding-bottom: 500px;
+  background: no-repeat url(img/Photo-top.png);
+  background-size: 259px 452px;
+  background-position: center;
+  background-position-y: 50px;
   }
+
   .fears-section{
   height: 666px;
   }
@@ -762,30 +768,50 @@ display: none;
   height: 60px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 60px;
+  background: no-repeat url(img/01.svg);
+  background-size: 56px 61px;
+  background-position: right center;
   }
   .splide__slide_first p:nth-child(2){
   width: 253px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 72px;
+  background: no-repeat url(img/02.svg);
+  background-size: 65px 61px;
+  background-position: right center;
   }
   .splide__slide_first p:nth-child(3){
   width: 260px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 63px;
+  background: no-repeat url(img/03.svg);
+  background-size: 65px 61px;
+  background-position: right center;
   }
   .splide__slide_first p:nth-child(4){
   width: 154px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 172px;
+  background: no-repeat url(img/04.svg);
+  background-size: 71px 61px;
+  background-position: right center;
   }
   .splide__slide_first p:nth-child(5){
   width: 162px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 158px;
+  background: no-repeat url(img/05.svg);
+  background-size: 66px 61px;
+  background-position: right center;
   }
   .splide__slide_first p{
   margin-bottom: 20px;
@@ -795,7 +821,11 @@ display: none;
   height: 60px;
   text-align: left;
   margin-left: 30px;
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  padding-right: 85px;
+  background: no-repeat url(img/06.svg);
+  background-size: 70px 61px;
+  background-position: right center;
   }
   .splide__slide_second p:nth-child(2){
   width: 253px;
@@ -803,25 +833,44 @@ display: none;
   text-align: left;
   margin-left: 30px;
   margin-top: 0;
+  margin-bottom: 16px;
+  padding-right: 89px;
+  background: no-repeat url(img/07.svg);
+  background-size: 70px 61px;
+  background-position: right center;
   }
   .splide__slide_second p:nth-child(3){
   width: 280px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 58px;
+  margin-bottom: 30px;
+  background: no-repeat url(img/08.svg);
+  background-size: 72px 61px;
+  background-position: right center;
   }
   .splide__slide_second p:nth-child(4){
   width: 170px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
-  margin-top: 35px;
+  margin-top: 25px;
+  padding-right: 167px;
+  background: no-repeat url(img/09.svg);
+  background-size: 72px 61px;
+  background-position: right center;
   }
   .splide__slide_second p:nth-child(5){
   width: 250px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 85px;
+  padding-bottom: 16px;
+  background: no-repeat url(img/10.svg);
+  background-size: 70px 61px;
+  background-position: right center;
   }
   .splide__slide_second p{
   margin-bottom: 20px;
@@ -972,8 +1021,9 @@ display: none;
   margin-left: 72px;
   }
   .about-section{
+  width: 100%;
   height: 1364px;
-  background: url(img/Background3.png);
+  background: linear-gradient(180deg, rgba(19, 2, 128, 0.9) 1.97%, rgba(35, 113, 228, 0.9) 102.22%);
   }
   .about__title{
   font:700 24px/29.26px Montserrat,arial helvetica serif;
@@ -986,6 +1036,10 @@ display: none;
   .description{
   margin-left: 0px;
   padding: 14px;
+  padding-bottom: 450px;
+  background: no-repeat url(img/Photo2.png);
+  background-size: 285px 430px;
+  background-position: bottom center;
   }
   .about__description{
   font:700 18px/21.94px Montserrat,arial helvetica serif;
@@ -1022,11 +1076,14 @@ display: none;
   height: 80px;
   margin-bottom: 18px;
   }
+  .advantages-section{
+    width: 100%;
+  }
   .advantages_title{
   font:700 24px/29.26px Montserrat,arial helvetica serif;
   width: 225px;
   height: 58px;
-  margin-left: 49px;
+  margin-left: 93px;
   padding-top: 51px;
   }
   .advantages__text {
@@ -1039,7 +1096,7 @@ display: none;
   .advantages:nth-child(1){
   background: none;
   width: 320px;
-  height: 132px;
+  height: 63px;
   }
   .advantages:nth-child(2){
   background: none;
@@ -1048,7 +1105,7 @@ display: none;
   }
   .advantages:nth-child(3){
   background: none;
-  width: 320px;
+  width: 344px;
   height: 132px;
   }
   .advantages:nth-child(4){
@@ -1060,31 +1117,29 @@ display: none;
   width: 223px;
   height: 60px;
   margin-top: 38px;
-  margin-left: -2px;
+  margin-left: 72px;
   }
   .advantages:nth-child(2) p{
   width: 239px;
   height: 60px;
-  margin-top: 50px;
-  margin-left: 48px;
+  margin-left: 86px;
   }
   .advantages:nth-child(3) p{
   width: 250px;
   height: 100px;
-  margin-top: 78px;
-  margin-left: 25px;
+  margin-left: 74px;
   }
   .advantages:nth-child(4) p{
   width: 211px;
   height: 80px;
-  margin-top: 92px;
-  margin-right: 14px;
+  margin-top: 5px;
+  margin-left: 73px;
   }
   .advantages__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
-  margin-top: 667px;
+  margin-top: 600px;
   margin-left: 70px;
   }
   .review-section{
@@ -1092,7 +1147,7 @@ display: none;
   }
   .review__title{
   font:700 24px/29px Montserrat,arial helvetica serif;
-  padding-top: 68px;
+  padding-top: 30px;
   }
   .swiper-container--reviews{
   display: none;
@@ -1239,6 +1294,7 @@ display: none;
   width: 253px;
   margin-left: 0;
   margin-top: 22px;
+  background-position-y: 41px;
 }
 .fears-section{
   height: 666px;
@@ -1274,30 +1330,35 @@ display: none;
   height: 60px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 20px;
 }
 .splide__slide_first p:nth-child(2){
   width: 253px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 33px;
 }
 .splide__slide_first p:nth-child(3){
   width: 260px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 25px;
 }
 .splide__slide_first p:nth-child(4){
   width: 154px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 132px;
 }
 .splide__slide_first p:nth-child(5){
   width: 162px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 120px;
 }
 .splide__slide_first p{
   margin-bottom: 20px;
@@ -1308,6 +1369,7 @@ display: none;
   text-align: left;
   margin-left: 30px;
   margin-bottom: 0;
+  padding-right: 25px;
 }
 .splide__slide_second p:nth-child(2){
   width: 253px;
@@ -1315,12 +1377,14 @@ display: none;
   text-align: left;
   margin-left: 30px;
   margin-top: 0;
+  padding-right: 31px;
 }
 .splide__slide_second p:nth-child(3){
   width: 280px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 1px;
 }
 .splide__slide_second p:nth-child(4){
   width: 170px;
@@ -1328,12 +1392,14 @@ display: none;
   text-align: left;
   margin-left: 30px;
   margin-top: 35px;
+  padding-right: 110px;
 }
 .splide__slide_second p:nth-child(5){
   width: 250px;
   height: 40px;
   text-align: left;
   margin-left: 30px;
+  padding-right: 31px;
 }
 .splide__slide_second p{
   margin-bottom: 20px;
@@ -1497,6 +1563,7 @@ background: url(img/Background3.png);
 .description{
   margin-left: -46px;
   padding: 14px;
+  background: none;
 }
 .about__description{
   font:700 18px/21.94px Montserrat,arial helvetica serif;
@@ -1550,7 +1617,7 @@ background: url(img/Background3.png);
 .advantages:nth-child(1){
   background: none;
   width: 320px;
-  height: 132px;
+  height: 34px;
 }
 .advantages:nth-child(2){
   background: none;
@@ -1565,7 +1632,7 @@ background: url(img/Background3.png);
 .advantages:nth-child(4){
   background: none;
   width: 320px;
-  height: 132px;
+  height: 100px;
 }
 .advantages:nth-child(1) p{
   width: 223px;
@@ -1582,20 +1649,20 @@ background: url(img/Background3.png);
 .advantages:nth-child(3) p{
   width: 250px;
   height: 100px;
-  margin-top: 78px;
+  margin-top: 0px;
   margin-left: 25px;
 }
 .advantages:nth-child(4) p{
   width: 211px;
   height: 80px;
-  margin-top: 92px;
-  margin-right: 14px;
+  margin-top: 0px;
+  margin-left: 5px;
 }
 .advantages__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
-  margin-top: 667px;
+  margin-top: 540px;
   margin-left: 31px;
 }
 .review-section{
@@ -1603,7 +1670,7 @@ background: url(img/Background3.png);
 }
 .review__title{
   font:700 24px/29px Montserrat,arial helvetica serif;
-  padding-top: 68px;
+  padding-top: 15px;
 }
 .swiper-container--reviews{
   display: none;
