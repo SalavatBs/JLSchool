@@ -72,7 +72,8 @@ body{
   width: 382px;
   height: 82px;
   text-align: center;
-  background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%);
+  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
+  background-color: #e3202a;
   cursor: pointer;
 }
 .text__description_present{
@@ -218,7 +219,8 @@ body{
   width: 286px;
   height: 72px;
   text-align: center;
-  background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%);
+  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
+  background-color: #e3202a;
   cursor: pointer;
   margin-left: 577px;
   margin-top: 50px;
@@ -268,7 +270,8 @@ body{
   width: 300px;
   height: 72px;
   text-align: center;
-  background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%);
+  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
+  background-color: #e3202a;
   cursor: pointer;
 }
 .knowlege-section{
@@ -348,7 +351,8 @@ body{
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 286px;
   height: 72px;
-  background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%);
+  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
+  background-color: #e3202a;
   cursor: pointer;
   margin-top: 535px;
   margin-left: 577px;
@@ -483,7 +487,8 @@ margin-left: 63px;
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 286px;
   height: 72px;
-  background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%);
+  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
+  background-color: #e3202a;
   cursor: pointer;
   margin-top: 591px;
   margin-left: 577px;
@@ -543,7 +548,8 @@ margin-left: 63px;
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 407px;
   height: 72px;
-  background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%);
+  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
+  background-color: #e3202a;
   cursor: pointer;
   margin-top: 71px;
   margin-left: 517px;
