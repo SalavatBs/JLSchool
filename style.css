@@ -1232,6 +1232,23 @@ display: none;
     margin-top: 49px;
   }
 }
+@media (max-width:385px){
+  .advantages:nth-child(1){
+    padding-right: 3%;
+  }
+  .advantages:nth-child(2){
+    padding-right: 3%;
+  }
+  .advantages:nth-child(3){
+    padding-right: 3%;
+  }
+  .advantages:nth-child(4){
+    padding-right: 3%;
+  }
+   .footer__section{
+     height: 340px;
+   }
+}
 @media (max-width:380px){
   .top-section{
     width: 100%;
