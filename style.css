@@ -71,6 +71,7 @@ body{
   font:500 30px/36.57px Montserrat,arial helvetica serif;
   width: 382px;
   height: 82px;
+  color: #fff;
   text-align: center;
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
@@ -218,6 +219,7 @@ body{
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 286px;
   height: 72px;
+  color: #fff;
   text-align: center;
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
@@ -269,6 +271,7 @@ body{
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 300px;
   height: 72px;
+  color: #fff;
   text-align: center;
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
@@ -351,6 +354,7 @@ body{
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 286px;
   height: 72px;
+  color: #fff;
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
   cursor: pointer;
@@ -487,6 +491,7 @@ margin-left: 63px;
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 286px;
   height: 72px;
+  color: #fff;
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
   cursor: pointer;
@@ -548,6 +553,7 @@ margin-left: 63px;
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 407px;
   height: 72px;
+  color: #fff;
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
   cursor: pointer;
