@@ -637,7 +637,9 @@ margin-left: 63px;
   font:400 18px/19.24px Montserrat,arial helvetica serif;
   width: 420px;
   height: 62px;
-  background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%);
+  color: #fff;
+  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
+  background-color: #e3202a;
   cursor: pointer;
   margin-left: 250px;
 }
