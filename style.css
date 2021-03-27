@@ -141,7 +141,7 @@ body{
 }
 .fears p:nth-child(2){
   width: 393px;
-  padding-right: 130px;
+  padding-right: 128px;
   padding-left: 178px;
 }
 .fears p:nth-child(3){
@@ -151,7 +151,7 @@ body{
 }
 .fears p:nth-child(4){
   width: 292px;
-  padding-right: 129px;
+  padding-right: 128px;
   padding-left: 278px
 }
 .fears p:nth-child(5){
@@ -433,7 +433,7 @@ margin-left: 63px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 710px;
+  width: 709px;
   height: 252px;
   margin-top: 13px;
 }
@@ -651,7 +651,7 @@ margin-left: 63px;
 .popup__text a{
   color: #a0caff
 }
-@media (max-width:1500px){
+@media (min-width:1500px){
   .advantages{
     width: 663px;
   }
@@ -1346,7 +1346,7 @@ display: none;
     background-position-Y: 101px;
   }
   .about__title{
-    margin-left: 7.5%;
+    margin-left: 1%;
   }
   .description{
     padding-left: 0;
