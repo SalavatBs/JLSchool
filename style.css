@@ -1150,7 +1150,7 @@ display: none;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 10%;
+    padding-right: 0;
     margin-bottom: 20px;
   }
   .advantages:nth-child(2){
@@ -1158,43 +1158,43 @@ display: none;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 10%;
+    padding-right: 0;
   }
   .advantages:nth-child(3){
     width: 100%;
     height: 140px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 10%;
+    padding-right: 0;
   }
   .advantages:nth-child(4){
     width: 100%;
     height: 132px;
     background: none;
     background-color: #FAF9FF;
-    padding-right: 10%;
+    padding-right: 0;
   }
   .advantages:nth-child(1) p{
   width: 223px;
   height: 60px;
   margin-top: 25px;
-  margin-left: 12%;
+  margin-left: 1%;
   }
   .advantages:nth-child(2) p{
-  width: 239px;
+  width: 100%;
   height: 60px;
   margin-left: 100px;
   }
   .advantages:nth-child(3) p{
   width: 250px;
   height: 100px;
-  margin-left: 21%;
+  margin-left: 10%;
   }
   .advantages:nth-child(4) p{
   width: 211px;
   height: 80px;
   margin-top: 5px;
-  margin-left: 13%;
+  margin-left: 2%;
   }
   .advantages__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
@@ -1275,16 +1275,22 @@ display: none;
 }
 @media (max-width:385px){
   .advantages:nth-child(1){
-    padding-right: 3%;
+    padding-right: 0%;
   }
   .advantages:nth-child(2){
-    padding-right: 3%;
+    padding-right: 0%;
   }
   .advantages:nth-child(3){
-    padding-right: 3%;
+    padding-right: 0%;
   }
   .advantages:nth-child(4){
-    padding-right: 3%;
+    padding-right: 0%;
+  }
+  .advantages:nth-child(2) p{
+    margin-left: 88px;
+  }
+  .advantages:nth-child(4) p{
+    margin-left: 1%;
   }
    .footer__section{
      height: 340px;
@@ -1338,44 +1344,39 @@ display: none;
   .advantages_title{
     margin-left: 77px;
   }
-  .advantages:nth-child(1) p{
-    margin-left:7%;
-  }
   .advantages:nth-child(2) p{
     margin-left: 77px;
     margin-top: 15%;
   }
   .advantages:nth-child(3) p{
-    margin-left: 15%;
     margin-top: 11%;
   }
   .advantages:nth-child(4) p{
-    margin-left: 9%;
     margin-top: 14%;
   }
   .advantages:nth-child(1){
     width: 100%;
     height: 132px;
     background-color: #FAF9FF;
-    padding-right: 6%;
+    padding-right: 0;
   }
   .advantages:nth-child(2){
     width: 100%;
     height: 132px;
     background-color: #FAF9FF;
-    padding-right: 6%;
+    padding-right:0;
   }
   .advantages:nth-child(3){
     width: 100%;
     height: 140px;
     background-color: #FAF9FF;
-    padding-right: 6%;
+    padding-right: 0;
   }
   .advantages:nth-child(4){
     width: 100%;
     height: 132px;
     background-color: #FAF9FF;
-    padding-right: 6%;
+    padding-right: 0;
   }
   .advantages__button{
     margin-top: 178%;
@@ -1478,7 +1479,10 @@ display: none;
     padding-right: 0%;
   }
   .advantages:nth-child(4){
-    padding-right: 2%;
+    padding-right: 0%;
+  }
+  .advantages:nth-child(2) p{
+    margin-left: 74px;
   }
 }
 @media (max-width:321px){
@@ -1889,34 +1893,34 @@ background: url(img/Background3.png);
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
-  padding-right: 0;
+  padding-right: 6%;
 }
 .advantages:nth-child(2){
   background: none;
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
-  padding-right: 0;
+  padding-right: 6%;
 }
 .advantages:nth-child(3){
   background: none;
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
-  padding-right: 0;
+  padding-right: 6%;
 }
 .advantages:nth-child(4){
   background: none;
   width: 100%;
   height: 132px;
   background-color: #FAF9FF;
-  padding-right: 0;
+  padding-right: 6%;
 }
 .advantages:nth-child(1) p{
   width: 223px;
   height: 60px;
   margin-top: 38px;
-  margin-left: -2px;
+  margin-left: 27px;
 }
 .advantages:nth-child(2) p{
   width: 239px;
@@ -1928,13 +1932,13 @@ background: url(img/Background3.png);
   width: 250px;
   height: 100px;
   margin-top: 51px;
-  margin-left: 25px;
+  margin-left: 50px;
 }
 .advantages:nth-child(4) p{
   width: 211px;
   height: 80px;
   margin-top: 50px;
-  margin-left: 2px;
+  margin-left: 7px;
 }
 .advantages__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
