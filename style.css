@@ -1150,7 +1150,7 @@ display: none;
     width: 100%;
     height: 132px;
     background: none;
-    background-color: #FAF9FF;
+    background-color: #e1e1e1;
     padding-right: 0;
     margin-bottom: 20px;
   }
@@ -1158,21 +1158,21 @@ display: none;
     width: 100%;
     height: 132px;
     background: none;
-    background-color: #FAF9FF;
+    background-color: #e1e1e1;
     padding-right: 0;
   }
   .advantages:nth-child(3){
     width: 100%;
     height: 140px;
     background: none;
-    background-color: #FAF9FF;
+    background-color: #e1e1e1;
     padding-right: 0;
   }
   .advantages:nth-child(4){
     width: 100%;
     height: 132px;
     background: none;
-    background-color: #FAF9FF;
+    background-color: #e1e1e1;
     padding-right: 0;
   }
   .advantages:nth-child(1) p{
@@ -1347,36 +1347,36 @@ display: none;
   }
   .advantages:nth-child(2) p{
     margin-left: 77px;
-    margin-top: 15%;
+    margin-top: 8%;
   }
   .advantages:nth-child(3) p{
-    margin-top: 11%;
+    margin-top: 7%;
   }
   .advantages:nth-child(4) p{
-    margin-top: 14%;
+    margin-top: 8%;
   }
   .advantages:nth-child(1){
     width: 100%;
     height: 132px;
-    background-color: #FAF9FF;
+    background-color: #E1E1E1;
     padding-right: 0;
   }
   .advantages:nth-child(2){
     width: 100%;
     height: 132px;
-    background-color: #FAF9FF;
+    background-color: #E1E1E1;
     padding-right:0;
   }
   .advantages:nth-child(3){
     width: 100%;
     height: 140px;
-    background-color: #FAF9FF;
+    background-color: #E1E1E1;
     padding-right: 0;
   }
   .advantages:nth-child(4){
     width: 100%;
     height: 132px;
-    background-color: #FAF9FF;
+    background-color: #E1E1E1;
     padding-right: 0;
   }
   .advantages__button{
