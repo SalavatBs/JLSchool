@@ -81,7 +81,7 @@ body{
   font: 500 20px/24.38px Montserrat,arial helvetica serif;
   width: 420px;
   height: 72px;
-  margin-top: 82px;
+  margin-top: 30px;
   margin-bottom: 0;
   background: url(img/top-present.svg) no-repeat;
   background-size: 79.38px 73px;
@@ -141,7 +141,6 @@ body{
 }
 .fears p:nth-child(2){
   width: 393px;
-  padding-right: 128px;
   padding-left: 178px;
 }
 .fears p:nth-child(3){
@@ -151,7 +150,6 @@ body{
 }
 .fears p:nth-child(4){
   width: 292px;
-  padding-right: 128px;
   padding-left: 278px
 }
 .fears p:nth-child(5){
@@ -165,7 +163,6 @@ body{
 .fears p:nth-child(6){
   width: 353px;
   height: 48px;
-  padding-right: 127px;
   padding-left: 218px;
   padding-top: 20px;
   padding-bottom: 28px;
@@ -183,7 +180,6 @@ body{
 .fears p:nth-child(8){
   width: 430px;
   height: 48px;
-  padding-right:120px;
   padding-left: 148px;
   padding-top: 19px;
   padding-bottom: 26px;
@@ -200,7 +196,6 @@ body{
 .fears p:nth-child(10){
   width: 457px;
   height: 48px;
-  padding-right: 128px;
   padding-left: 114px;
   padding-top: 19px;
   padding-bottom: 26px;
@@ -424,7 +419,7 @@ margin-left: 63px;
 }
 .advantages__text{
   display:grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   position: absolute;
   justify-content: center;
   font:500 20px/24.38px Montserrat,arial helvetica serif;
@@ -652,14 +647,20 @@ margin-left: 63px;
   color: #a0caff
 }
 @media (min-width:1500px){
-  .advantages{
-    width: 663px;
+  .advantages__text{
+    grid-template-columns: 1fr 1fr;
   }
 .advantages:nth-child(1){
   background-position: 110px 89px;
 }
+ .advantages:nth-child(2){
+  padding-right: 60px;
+}
 .advantages:nth-child(3){
   background-position: 120px 87px;
+}
+.advantages:nth-child(4){
+  padding-right: 60px;
 }
 .advantages:nth-child(1) p{
   margin-left: 60px;
@@ -752,6 +753,11 @@ display: none;
   }
   .text{
   padding-left: 18%;
+  padding-bottom: 588px;
+  background: no-repeat url(img/Photo-top.png);
+  background-size: 259px 452px;
+  background-position: center;
+  background-position-y: 605px;
   }
   .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
@@ -776,7 +782,7 @@ display: none;
   width: 235px;
   height: 70px;
   background: none;
-  margin-top: 74px;
+  margin-top: 20px;
   padding-left: 0;
   }
   .text__description{
@@ -784,11 +790,6 @@ display: none;
   width: 253px;
   margin-left: 0;
   margin-top: 22px;
-  padding-bottom: 533px;
-  background: no-repeat url(img/Photo-top.png);
-  background-size: 259px 452px;
-  background-position: center;
-  background-position-y: 100px;
   }
 
   .fears-section{
@@ -1338,12 +1339,13 @@ display: none;
   .header button{
   margin-left: 320px;
   }
+  .text__description_present{
+    margin-top: 20px;
+  }
   .text{
   padding-left: 60px;
-  }
-  .text__description{
-    padding-bottom: 533px;
-    background-position-Y: 101px;
+  padding-bottom: 600px;
+  background-position-y:605px;
   }
   .about__title{
     margin-left: 1%;
@@ -1549,6 +1551,8 @@ display: none;
 }
 .text{
   padding-left: 31px;
+  padding-bottom: 549px;
+  background-position-y:576px;
 }
 .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
@@ -1572,7 +1576,7 @@ display: none;
   width: 235px;
   height: 70px;
   background: none;
-  margin-top: 74px;
+  margin-top: 20px;
   padding-left: 0;
 }
 .text__description{
@@ -1905,35 +1909,35 @@ background: url(img/Background3.png);
   background: none;
   width: 100%;
   height: 132px;
-  background-color: #FAF9FF;
-  padding-right: 6%;
+  background-color: #e9e9e9;
+  padding-right: 0;
 }
 .advantages:nth-child(2){
   background: none;
   width: 100%;
   height: 132px;
-  background-color: #FAF9FF;
-  padding-right: 6%;
+  background-color: #e9e9e9;
+  padding-right: 0;
 }
 .advantages:nth-child(3){
   background: none;
   width: 100%;
   height: 132px;
-  background-color: #FAF9FF;
-  padding-right: 6%;
+  background-color: #e9e9e9;
+  padding-right: 0;
 }
 .advantages:nth-child(4){
   background: none;
   width: 100%;
   height: 132px;
-  background-color: #FAF9FF;
-  padding-right: 6%;
+  background-color: #e9e9e9;
+  padding-right: 0;
 }
 .advantages:nth-child(1) p{
   width: 223px;
   height: 60px;
   margin-top: 30px;
-  margin-left: 27px;
+  margin-left: 0px;
 }
 .advantages:nth-child(2) p{
   width: 239px;
@@ -1945,13 +1949,13 @@ background: url(img/Background3.png);
   width: 250px;
   height: 100px;
   margin-top: 37px;
-  margin-left: 50px;
+  margin-left: 24px;
 }
 .advantages:nth-child(4) p{
   width: 211px;
   height: 80px;
   margin-top: 27px;
-  margin-left: 7px;
+  margin-left: 0px;
 }
 .advantages__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
