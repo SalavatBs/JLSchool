@@ -2,8 +2,8 @@ body{
   margin: 0;
 }
 .top-section{
-  /* width:100%; */
-  height:838px;
+  /* width:100%;
+  height:838px; */
   color:#E1E1E1;
   background: url(img/Background-top.png);
   background-size: 100% 838px;
@@ -97,8 +97,8 @@ body{
   margin-left: 99px;
 }
 .fears-section{
-  /* width: 100%; */
-  height: 937px;
+  /* width: 100%;
+  height: 937px; */
   margin-bottom: 90px;
 }
 .fears__title{
@@ -134,43 +134,43 @@ body{
   margin-bottom: 0;
 }
 .fears p:nth-child(1){
-  width: 383px;
+  /* width: 383px; */
   padding-right: 227px;
   padding-left: 130px;
   text-align: left;
 }
 .fears p:nth-child(2){
-  width: 393px;
+  /* width: 393px; */
   padding-left: 178px;
 }
 .fears p:nth-child(3){
-  width: 362px;
+  /* width: 362px; */
   padding-right: 223px;
   padding-left: 130px;
 }
 .fears p:nth-child(4){
-  width: 292px;
+  /* width: 292px; */
   padding-left: 278px
 }
 .fears p:nth-child(5){
-  width: 362px;
-  height: 24px;
+  /* width: 362px;
+  height: 24px; */
   padding-right: 239px;
   padding-left: 130px;
   padding-top: 33px;
   padding-bottom: 37px;
 }
 .fears p:nth-child(6){
-  width: 353px;
-  height: 48px;
+  /* width: 353px;
+  height: 48px; */
   padding-left: 218px;
   padding-top: 20px;
   padding-bottom: 28px;
   text-align:right;
 }
 .fears p:nth-child(7){
-  width: 386px;
-  height: 48px;
+  /* width: 386px;
+  height: 48px; */
   padding-right: 215px;
   padding-left: 130px;
   padding-top: 19px;
@@ -178,24 +178,24 @@ body{
   text-align: left;
 }
 .fears p:nth-child(8){
-  width: 430px;
-  height: 48px;
+  /* width: 430px;
+  height: 48px; */
   padding-left: 148px;
   padding-top: 19px;
   padding-bottom: 26px;
   text-align: right;
 }
 .fears p:nth-child(9){
-  width: 333px;
-  height: 24px;
+  /* width: 333px;
+  height: 24px; */
   padding-right: 268px;
   padding-left: 131px;
   padding-top: 32px;
   padding-bottom: 37px;
 }
 .fears p:nth-child(10){
-  width: 457px;
-  height: 48px;
+  /* width: 457px;
+  height: 48px; */
   padding-left: 114px;
   padding-top: 19px;
   padding-bottom: 26px;
@@ -203,8 +203,8 @@ body{
 }
 .fears__subtitle{
   font:700 30px/36.57px Montserrat,arial helvetica serif;
-  width: 652px;
-  height: 111px;
+  /* width: 652px;
+  height: 111px; */
   text-align: center;
   margin-left: 393px;
   margin-top: 59px;
@@ -223,8 +223,8 @@ body{
   margin-top: 50px;
 }
 .present-section{
-  /* width: 100%; */
-  height: 652px;
+  /* width: 100%;
+  height: 652px; */
   color:#E1E1E1;
   background: url(img/background-present.png);
   background-size: 100% 652px;
@@ -265,7 +265,7 @@ body{
 .present__photo{
   width: 676px;
   height: 445px;
-  background:no-repeat url(img/Photo1.png); 
+  background:no-repeat url(img/Photo1.png);
 }
 .present-text__button{
   font:500 20px/24.38px Montserrat,arial helvetica serif;
@@ -278,8 +278,8 @@ body{
   cursor: pointer;
 }
 .knowlege-section{
-  /* width: 100%; */
-  height: 745px;
+  /* width: 100%;
+  height: 745px; */
 }
 .knowlege-section__titile{
   font:700 40px/48.76px Montserrat,arial helvetica serif;
@@ -301,8 +301,8 @@ body{
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 340px;
-  height: 200px;
+  /* width: 340px;
+  height: 200px; */
   padding-top: 16px;
 }
 .knowlege:nth-child(n+4){
@@ -342,14 +342,14 @@ body{
 .knowlege:nth-child(4){
   margin-left: 6px;
 }
-.knowlege:nth-child(5) p{
+/* .knowlege:nth-child(5) p{
   width: 199px;
   height: 72px;
 }
 .knowlege:nth-child(6) p{
   width: 349px;
   height: 72px;
-}
+} */
 .knowlege__button{
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   width: 286px;
@@ -358,12 +358,12 @@ body{
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
   cursor: pointer;
-  margin-top: 535px;
+  /* margin-top: 535px; */
   margin-left: 577px;
 }
 .about-section{
-  /* width:100%; */
-  height:940px;
+  /* width:100%;
+  height:940px; */
   color:#E1E1E1;
   background: url(img/Background-about.png);
   background-size: 100% 940px;
@@ -414,8 +414,8 @@ margin-left: 63px;
   height: 48px; */
 }
 .advantages-section{
-  /* width: 100%; */
-  height: 838px;
+  /* width: 100%;
+  height: 838px; */
 }
 .advantages_title{
   font: 700 40px/48.76px Montserrat,arial helvetica serif;
@@ -495,12 +495,12 @@ margin-left: 63px;
   /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
   cursor: pointer;
-  margin-top: 591px;
+  /* margin-top: 591px; */
   margin-left: 577px;
 }
 .review-section{
-  width: 100%;
-  height: 797px;
+  /* width: 100%;
+  height: 797px; */
 }
 .review__title{
   font:700 40px/48.76px Montserrat,arial helvetica serif;
@@ -562,8 +562,8 @@ margin-left: 63px;
 }
 .footer__section{
   display: flex;
-  /* width: 100%; */
-  height: 402px;
+  /* width: 100%;
+  height: 402px; */
   background: linear-gradient(180deg, #2E63B4 0%, #241B6F 91.67%);
   align-items: center;
   justify-content: center;
@@ -580,6 +580,7 @@ margin-left: 63px;
   position: fixed;
   width: 100%;
   height: 100%;
+  z-index: 2;
   background: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
