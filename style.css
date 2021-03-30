@@ -575,6 +575,10 @@ margin-left: 63px;
   padding-top: 167px;
   padding-bottom: 138px;
 }
+.footer a{
+  color: #fff;
+  cursor: pointer;
+}
 .popup{
   position: fixed;
   width: 100%;
@@ -761,6 +765,7 @@ display: none;
   .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
   margin-top: 30px;
+  padding-bottom: 30px;
   }
   .text__subtitle{
   font:500 16px/19.5px Montserrat,arial helvetica serif;
@@ -926,7 +931,7 @@ display: none;
   .fears__subtitle{
   max-width: 261px;
   font:700 18px/21.94px Montserrat,arial helvetica serif;
-  margin-left: 18%;
+  margin-left: 16%;
   margin-top: 77px;
   }
   .fears__button{
@@ -956,7 +961,7 @@ display: none;
     align-items: center;
     justify-content: center;
     margin-left: 0;
-    padding-top: 75px;
+    padding-top: 40px;
   }
   .present-text__description_present{
   max-width:261px;
@@ -990,7 +995,7 @@ display: none;
   }
   .knowlege:nth-child(1) p{
   max-width: 184px;
-  margin-left: 65px;
+  margin-left: 50px;
   margin-top: 15px;
   }
   .knowlege:nth-child(1) img {
@@ -998,70 +1003,70 @@ display: none;
   height: 46.2px;
   padding-top: 13px;
   padding-bottom: 0;
-  margin-left: 65px;
+  margin-left: 50px;
   }
   .knowlege:nth-child(2) img {
   width: 48px;
   height: 47px;
-  margin-left: 70px;
+  margin-left: 55px;
   margin-bottom: 0;
   }
   .knowlege:nth-child(2) p{
   max-width: 183px;
-  margin-left: 65px;
+  margin-left: 50px;
   margin-top: 7px;
   }
   .knowlege:nth-child(3) img {
   width: 48px;
   height: 46px;
-  margin-left: 60px;
+  margin-left: 45px;
   }
   .knowlege:nth-child(3) p{
   max-width: 217px;
   margin-top: 5px;
-  margin-left: 65px;
+  margin-left: 50px;
   }
   .knowlege:nth-child(4) img {
   width: 45px;
   height: 47px;
-  margin-left: 60px;
+  margin-left: 45px;
   padding-right: 0;
   }
   .knowlege:nth-child(4) p{
   max-width: 199px;
   margin-top: 9px;
-  margin-left: 60px;
+  margin-left: 45px;
   padding-right: 0;
   }
   .knowlege:nth-child(5) img {
   width: 48px;
   height: 47px;
-  margin-left: 70px;
+  margin-left: 55px;
   padding-right: 0;
   }
   .knowlege:nth-child(5) p{
   max-width: 159px;
   margin-top: 7px;
-  margin-left: 70px;
+  margin-left: 55px;
   padding-right: 0;
   }
   .knowlege:nth-child(6) img {
   width: 48px;
   height: 47px;
-  margin-left: 65px;
+  margin-left: 50px;
   padding-right: 0;
   }
   .knowlege:nth-child(6) p{
   max-width: 253px;
   margin-top: 7px;
-  margin-left: 65px;
+  margin-left: 50px;
   }
   .knowlege__button{
   font:500 16px/20px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
   margin-top: 20px;
-  margin-left: 72px;
+  margin-left: 61px;
   }
   .about-section{
   /* width: 100%;
@@ -1079,17 +1084,19 @@ display: none;
   .description{
   margin-left: 0px;
   padding: 14px;
-  padding-bottom: 450px;
+  padding-bottom: 500px;
   background: no-repeat url(img/Photo2.png);
   background-size: 318.5px 444.6px;
-  background-position: bottom center;
+  background-position: center 680px;
   }
   .about__description{
   font:700 18px/21.94px Montserrat,arial helvetica serif;
+  margin-left: 47px;
   }
   .description p{
   font:500 16px/19.5px Montserrat,arial helvetica serif;
   background: none;
+  padding-left: 47px;
   }
   .description p:nth-child(2) {
   /* width: 212px;
