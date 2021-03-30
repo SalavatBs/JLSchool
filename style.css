@@ -134,26 +134,27 @@ body{
 }
 .fears__text-fears:nth-child(2n+1):after{
   width: 85px;
-  height: 99px;
+  height: 110px;
 
   background: #F7F7F7;
   transform: matrix(0.5, 0, 0.4, -1, 0, 0);
   content: '';
   display: inline-block;
   position: absolute;
-  top: 9px;
+  top: 0px;
   right: -16px;
+  box-shadow: 24px 0px 8px #e1e1e1;
 }
 .fears__text-fears:nth-child(2n)::before{
   width: 85px;
-  height: 99px;
+  height: 110px;
   left:-11px;
   background: #F7F7F7;
   transform: matrix(0.5, 0, 0.4, -1, 0, 0);
   content: '';
   display: inline-block;
   position: absolute;
-  top: 9px;
+  top: 0px;
 }
 .fears__text-fears:nth-child(2n+1) div{
   padding-right: 64px;
@@ -164,10 +165,12 @@ body{
 .fears__text-fears:nth-child(2n+1){
 text-align: left;
 padding-left: 133px;
+box-shadow: -40px 0px 12px #e2e2e2;
 }
 .fears__text-fears:nth-child(2n){
   text-align: right;
   padding-right: 130px;
+  box-shadow: 20px 0 12px #e2e2e2;
 }
 .fears p{
   display: flex;
