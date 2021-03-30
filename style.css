@@ -667,19 +667,11 @@ margin-left: 63px;
 .advantages:nth-child(4){
   padding-right: 60px;
 }
-.advantages:nth-child(1) p{
-  margin-left: 60px;
-}
 .advantages:nth-child(2) p{
   margin-right: 0;
-  margin-left: 50px;
-}
-.advantages:nth-child(3) p{
-  margin-left: 144px;
 }
 .advantages:nth-child(4) p{
   margin-right: 0;
-  margin-left: 60px;
 }
 
 .fears p:nth-child(2){
