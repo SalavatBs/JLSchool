@@ -642,7 +642,6 @@ margin-left: 63px;
   width: 420px;
   height: 62px;
   color: #fff;
-  /* background: linear-gradient(180deg, #FFC24B 0%, #FFA800 100%); */
   background-color: #e3202a;
   cursor: pointer;
   margin-left: 250px;
@@ -653,7 +652,7 @@ margin-left: 63px;
   margin-top: 44px;
 }
 .popup__text a{
-  color: #a0caff;
+  color: skyblue;
 }
 @media (min-width:1500px){
   .advantages__text{
