@@ -1264,7 +1264,7 @@ display: none;
     font:500 16px/20px Montserrat,arial helvetica serif;
     max-width: 243px;
     padding-top: 50px;
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
   .popup__content{
     width: 321px;
@@ -1315,9 +1315,6 @@ display: none;
   .advantages:nth-child(4) p{
     margin-left: 1%;
   }
-   .footer__section{
-     height: 340px;
-   }
 }
 @media (max-width:380px){
   .top-section{
@@ -2007,6 +2004,6 @@ background: url(img/Background3.png);
   font:500 16px/20px Montserrat,arial helvetica serif;
   max-width: 243px;
   padding-top: 50px;
-  padding-bottom: 0;
+  padding-bottom: 50px;
 }
 }
