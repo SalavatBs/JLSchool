@@ -764,7 +764,7 @@ display: none;
   }
   .text{
   padding-left: 18%;
-  padding-bottom: 588px;
+  padding-bottom: 510px;
   background: no-repeat url(img/Photo-top.png);
   background-size: 259px 452px;
   background-position: center;
@@ -808,8 +808,7 @@ display: none;
   }
   .fears__title{
   font:700 24px/27px Montserrat,arial helvetica serif;
-  /* width: 214px;
-  height: 58px; */
+  max-width: 214px;
   margin-top: 72px;
   margin-left: 90px;
   margin-bottom: 4px;
@@ -1419,7 +1418,7 @@ display: none;
     margin-left: 62px;
   }
   .fears__title{
-    margin-left: 7%;
+    margin-left: 90px;
   }
   .fears__subtitle{
     max-width: 261px;
@@ -1603,10 +1602,9 @@ display: none;
 }
 .fears__title{
   font:700 24px/27px Montserrat,arial helvetica serif;
-  /* width: 214px;
-  height: 58px; */
+  max-width: 214px;
   margin-top: 72px;
-  margin-left: 3px;
+  margin-left: 55px;
   margin-bottom: 7px;
 }
 .fears{
