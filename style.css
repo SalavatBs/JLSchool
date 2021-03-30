@@ -698,7 +698,7 @@ margin-left: 63px;
     display: none;
   }
 }
-@media (min-width:960px){
+@media (min-width:1201px){
 .swiper-container--intro{
 display: none;
 }
@@ -706,7 +706,7 @@ display: none;
 display: none;
 }
 }
-@media (max-width:550px){
+@media (max-width:1200px){
   .top-section{
     background: no-repeat url("img/Background-top2.png");
     background-size: 100% 1284px;
@@ -719,8 +719,6 @@ display: none;
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   padding-left: 50px;
   padding-right: 0;
-  /* width: 91px;
-  height: 24px; */
   }
   .logo p{
   display: flex;
@@ -730,8 +728,6 @@ display: none;
   }
   .logo__text{
   font: 500 16px/19.5px Montserrat,arial helvetica serif;
-  /* width: 276px;
-  height: 51px; */
   padding-top: 24px;
   margin-top: 20px;
   margin-left: 74px;
@@ -764,14 +760,10 @@ display: none;
   }
   .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
-  /* width: 285px;
-  height: 182px; */
   margin-top: 30px;
   }
   .text__subtitle{
   font:500 16px/19.5px Montserrat,arial helvetica serif;
-  /* width: 221px;
-  height: 80px; */
   margin-bottom: 17px;
   margin-top: 0;
   }
@@ -782,21 +774,14 @@ display: none;
   }
   .text__description_present{
   font:500 16px/19.5px Montserrat,arial helvetica serif;
-  /* width: 235px;
-  height: 70px; */
   background: none;
   margin-top: 20px;
   padding-left: 0;
   }
   .text__description{
   font:700 16px/19.5px Montserrat,arial helvetica serif;
-  /* width: 253px; */
   margin-left: 0;
   margin-top: 22px;
-  }
-
-  .fears-section{
-  height: 666px;
   }
   .fears__title{
   font:700 24px/27px Montserrat,arial helvetica serif;
@@ -966,8 +951,12 @@ display: none;
   text-align: center;
   }
   .present-text{
-  margin-left: 18%;
-  padding-top: 75px;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    padding-top: 75px;
   }
   .present-text__description_present{
   max-width:261px;
@@ -985,9 +974,6 @@ display: none;
   .present__photo{
     display: none;
   }
-  /* .knowlege-section{
-  height: 1262px;
-  } */
   .knowlege-section__titile{
   font:700 24px/29.26px Montserrat,arial helvetica serif;
   margin-top: 71px;
@@ -1420,7 +1406,7 @@ display: none;
     margin-left: 18%;
   }
   .present-text{
-    margin-left: 15%;
+    margin-left: 0;
   }
   .knowlege-section__titile{
     margin-left: 26.3%;
@@ -1723,7 +1709,7 @@ display: none;
   margin-bottom: 51px;
 }
 .present-text{
-  margin-left: 30px;
+  margin-left: 0;
   padding-top: 34px;
 }
 .present-text__description_present{
