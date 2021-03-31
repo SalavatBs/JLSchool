@@ -693,6 +693,23 @@ margin-left: 63px;
   padding-right: 0;
 }
 }
+@media (max-width:1370px){
+  .fears__subtitle{
+    margin-left: 370px;
+  }
+  .fears__button{
+    margin-left: 560px;
+  }
+  .knowlege__button{
+    margin-left: 540px;
+  }
+  .advantages__button{
+    margin-left: 530px;
+  }
+  .review__button{
+    margin-left: 470px;
+  }
+}
 @media (max-width:960px){
   .fears{
     display: none;
