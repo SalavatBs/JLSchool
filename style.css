@@ -70,7 +70,7 @@ body{
   text-align: center;
   background-color: #e3202a;
   cursor: pointer;
-  margin-bottom: 142px;
+  margin-bottom: 30px;
 }
 .text__description_present{
   font: 500 20px/24.38px Montserrat,arial helvetica serif;
@@ -89,6 +89,9 @@ body{
   font: 700 20px/24.38px Montserrat,arial helvetica serif;
   margin-top: 12px;
   margin-left: 99px;
+}
+.text__color{
+  padding-bottom: 82px;
 }
 .fears-section{
   margin-bottom: 90px;
@@ -523,8 +526,8 @@ margin-left: 63px;
   font:500 20px/24.38px Montserrat,arial helvetica serif;
   color: #fff;
   text-align: center;
-  padding-top: 167px;
-  padding-bottom: 138px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .footer a{
   color: #fff;
