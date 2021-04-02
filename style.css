@@ -914,7 +914,7 @@ display: none;
   font:500 16px/19.5px Montserrat,arial helvetica serif;
   width: 260px;
   height: 60px;
-  margin-left: 75px;
+  margin-left: 70px;
   margin-top: 20px;
   }
   .present-section{
@@ -922,14 +922,14 @@ display: none;
   }
   .present-text__title{
   font:700 24px/29.26px Montserrat,arial helvetica serif;
-  margin-left: 7%;
+  margin-left: 6%;
   padding-top: 71px;
   text-align: left;
   }
   .present-text__description{
   max-width: 330px;
   font:500 14px/20.5px Montserrat,arial helvetica serif;
-  margin-left: 30px;
+  margin-left: 25px;
   }
   .present-text{
     display: flex;
@@ -1475,7 +1475,6 @@ display: none;
 }
 .text__description{
   font:700 16px/19.5px Montserrat,arial helvetica serif;
-  /* width: 253px; */
   margin-left: 0;
   margin-top: 22px;
   background-position-y: 41px;
@@ -1736,13 +1735,10 @@ display: none;
   margin-left: 30px;
 }
 .about-section{
-/* height: 1364px; */
 background: url(img/Background3.png);
 }
 .about__title{
   font:700 24px/29.26px Montserrat,arial helvetica serif;
-  /* width: 100%;
-  height: 29px; */
   padding-top: 70px;
   margin-top: 11px;
   margin-left: 0;
@@ -1784,8 +1780,6 @@ background: url(img/Background3.png);
 }
 .advantages_title{
   font:700 24px/29.26px Montserrat,arial helvetica serif;
-  /* width: 225px;
-  height: 58px; */
   margin-left: 49px;
   padding-top: 51px;
   margin-bottom: 51px;
@@ -1799,31 +1793,23 @@ background: url(img/Background3.png);
 }
 .advantages:nth-child(1){
   background: none;
-  /* width: 100%;
-  height: 132px; */
   background-color: #e9e9e9;
   padding-right: 0;
   margin-right: 0;
 }
 .advantages:nth-child(2){
   background: none;
-  /* width: 100%;
-  height: 132px; */
   background-color: #e9e9e9;
   padding-right: 0;
 }
 .advantages:nth-child(3){
   background: none;
-  /* width: 100%;
-  height: 132px; */
   background-color: #e9e9e9;
   padding-right: 0;
   margin-right: 0;
 }
 .advantages:nth-child(4){
   background: none;
-  /* width: 100%;
-  height: 132px; */
   background-color: #e9e9e9;
   padding-right: 0;
 }
@@ -1861,9 +1847,6 @@ background: url(img/Background3.png);
   height: 60px;
   margin-top: 30px;
   margin-left: 31px;
-}
-.review-section{
-  /* height: 741px; */
 }
 .review__title{
   font:700 24px/29px Montserrat,arial helvetica serif;
