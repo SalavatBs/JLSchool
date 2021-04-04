@@ -57,7 +57,7 @@ body{
   margin-bottom: 0;
 }
 .text__subtitle{
-  font: 500 23px/36.57px Montserrat,arial helvetica serif;
+  font: 500 23px/38.57px Montserrat,arial helvetica serif;
   max-width: 573px;
   margin-bottom: 33px;
   margin-top: 20px;
@@ -222,7 +222,7 @@ box-shadow: -40px 0px 12px #e2e2e2;
 .present-text{
   display: flex;
   margin-left: 130px;
-  padding-top: 29px;
+  padding-top: 30px;
 }
 .present__photo{
   width: 676px;
