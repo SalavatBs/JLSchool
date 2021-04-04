@@ -12,14 +12,14 @@ body{
   padding-top: 40px;
 }
 .logo{
-  font:500 30px/36.57px Montserrat,arial helvetica serif;
+  font:500 30px/36.56px Montserrat,arial helvetica serif;
   padding-left: 130px;
   padding-top: 9px;
   padding-right: 149px;
 }
 .logo__text{
   display: flex;
-  font: 500 20px/24.38px Montserrat,arial helvetica serif;
+  font: 500 20px/24.37px Montserrat,arial helvetica serif;
   margin-top: -8px;
   width: 294.5px;
   height: 70px;
@@ -28,7 +28,7 @@ body{
   background:  url(img/l.t.bcg.svg) no-repeat;
 }
 .logo__time{
-  font:700 20px/24.38px Montserrat,arial helvetica serif;
+  font:700 20px/24.37px Montserrat,arial helvetica serif;
   margin-top: 0;
   padding-top: 13px;
 }
