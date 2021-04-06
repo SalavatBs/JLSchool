@@ -626,21 +626,24 @@ margin-left: 63px;
   .text__color{
     padding-bottom: 56px;
   }
-  /* .fears__subtitle{
-    margin-left: 600px;
+  .fears__subtitle{
+    margin-left: 555px;
   }
   .fears__button{
-    margin-left: 777px;
+    margin-left: 730px;
   }
   .knowlege__button{
-    margin-left: 820px;
+    margin-left: 730px;
   }
+  .advantages_title{
+  margin-left: 385px;
+}
   .advantages__button{
-    margin-left: 800px;
+    margin-left: 725px;
   }
   .review__button{
-    margin-left: 760px;
-  } */
+    margin-left: 670px;
+  }
 }
 @media (min-width:1500px){
   .advantages__text{
