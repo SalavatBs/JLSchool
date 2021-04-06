@@ -613,8 +613,30 @@ margin-left: 63px;
   color: skyblue;
 }
 @media (min-width:1700px){
+  .logo{
+    padding-right: 600px;
+  }
   .text{
     margin-right: 235px;
+    padding-left: 230px;
+  }
+  .text__color{
+    padding-bottom: 56px;
+  }
+  .fears__subtitle{
+    margin-left: 600px;
+  }
+  .fears__button{
+    margin-left: 777px;
+  }
+  .knowlege__button{
+    margin-left: 820px;
+  }
+  .advantages__button{
+    margin-left: 800px;
+  }
+  .review__button{
+    margin-left: 760px;
   }
 }
 @media (min-width:1500px){
