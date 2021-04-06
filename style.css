@@ -626,7 +626,7 @@ margin-left: 63px;
   .text__color{
     padding-bottom: 56px;
   }
-  .fears__subtitle{
+  /* .fears__subtitle{
     margin-left: 600px;
   }
   .fears__button{
@@ -640,7 +640,7 @@ margin-left: 63px;
   }
   .review__button{
     margin-left: 760px;
-  }
+  } */
 }
 @media (min-width:1500px){
   .advantages__text{
