@@ -49,11 +49,15 @@ body{
 }
 .text{
   padding-left: 130px;
+  padding-top: 30px;
+  margin-right: 110px;
+  background: url("img/Photo-top.png") no-repeat;
+  background-size: 398px 702px;
+  background-position: bottom right;
 }
 .text__title{
   font:700 48px/51.31px Montserrat,arial helvetica serif;
   max-width: 796px;
-  margin-top: 50px;
   margin-bottom: 0;
 }
 .text__subtitle{
@@ -607,6 +611,11 @@ margin-left: 63px;
 }
 .popup__text a{
   color: skyblue;
+}
+@media (min-width:1700px){
+  .text{
+    margin-right: 235px;
+  }
 }
 @media (min-width:1500px){
   .advantages__text{
