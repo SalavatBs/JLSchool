@@ -616,8 +616,11 @@ margin-left: 63px;
   .header p{
     margin-right: 12px;
   }
+  .header button{
+    margin-left: 100px;
+  }
   .logo__text{
-    background-position-x: 0px; 
+    background-position-x: 0px;
   }
   .logo{
     padding-right: 600px;
