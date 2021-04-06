@@ -620,6 +620,9 @@ margin-left: 63px;
     margin-right: 235px;
     padding-left: 230px;
   }
+  .text__title{
+    padding-top: 30px;
+  }
   .text__color{
     padding-bottom: 56px;
   }
