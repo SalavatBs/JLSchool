@@ -711,6 +711,9 @@ margin-left: 63px;
   }
 }
 @media (max-width:960px){
+  .text{
+    margin-right: 0;
+  }
   .fears{
     display: none;
   }
