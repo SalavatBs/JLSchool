@@ -777,7 +777,7 @@ display: none;
   background: no-repeat url(img/Photo-top.png);
   background-size: 259px 452px;
   background-position: center;
-  background-position-y: 605px;
+  background-position-y: 636px;
   }
   .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
@@ -1334,7 +1334,6 @@ display: none;
   .text{
   padding-left: 0;
   padding-bottom: 504px;
-  background-position-y:605px;
   }
   .about__title{
     margin-left: 1%;
@@ -1498,7 +1497,7 @@ display: none;
 .text{
   padding-left: 0px;
   padding-bottom: 504px;
-  background-position-y:606px;
+  background-position-y:656px;
 }
 .text__title{
   font:700 30px/32.07px Montserrat,arial helvetica serif;
